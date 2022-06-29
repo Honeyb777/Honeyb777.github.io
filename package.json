@@ -33,7 +33,8 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && blog-pages -d public -b master -r 'git@github.com:Honeyb777/honeyb777.github.io.git'"
   },
   "repository": {
     "type": "git",
