@@ -3,7 +3,7 @@ module.exports = {
     title: `HBL`,
     description: `HBL description`,
     author: `@gatsbyjs`,
-    siteUrl: `https://honeyb777.github.com`,
+    siteUrl: `https://honeyb777.github.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
